@@ -222,6 +222,9 @@
           </Events>
         </Component>
         <Component class="javax.swing.JTextField" name="txtPencarian">
+          <Events>
+            <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtPencarianKeyTyped"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JComboBox" name="cmbKategori">
           <Properties>
@@ -255,6 +258,9 @@
                   </Table>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="tblKontakMouseClicked"/>
+              </Events>
             </Component>
           </SubComponents>
         </Container>
@@ -265,6 +271,9 @@
             </Property>
             <Property name="text" type="java.lang.String" value="TAMBAH"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnTambahActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="btnEdit">
           <Properties>
@@ -273,6 +282,9 @@
             </Property>
             <Property name="text" type="java.lang.String" value="EDIT"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEditActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="btnHapus">
           <Properties>
@@ -281,6 +293,9 @@
             </Property>
             <Property name="text" type="java.lang.String" value="HAPUS"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnHapusActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="btnExport">
           <Properties>
@@ -289,6 +304,9 @@
             </Property>
             <Property name="text" type="java.lang.String" value="EXPORT"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnExportActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="btnImport">
           <Properties>
@@ -297,6 +315,9 @@
             </Property>
             <Property name="text" type="java.lang.String" value="IMPORT"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnImportActionPerformed"/>
+          </Events>
         </Component>
       </SubComponents>
     </Container>
