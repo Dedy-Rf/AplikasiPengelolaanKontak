@@ -398,6 +398,7 @@ header.trim().equalsIgnoreCase("ID,Nama,Nomor Telepon,Kategori");
         });
         jScrollPane1.setViewportView(tblKontak);
 
+        btnTambah.setBackground(new java.awt.Color(153, 255, 153));
         btnTambah.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         btnTambah.setText("TAMBAH");
         btnTambah.addActionListener(new java.awt.event.ActionListener() {
@@ -406,6 +407,7 @@ header.trim().equalsIgnoreCase("ID,Nama,Nomor Telepon,Kategori");
             }
         });
 
+        btnEdit.setBackground(new java.awt.Color(255, 255, 153));
         btnEdit.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         btnEdit.setText("EDIT");
         btnEdit.addActionListener(new java.awt.event.ActionListener() {
@@ -414,6 +416,7 @@ header.trim().equalsIgnoreCase("ID,Nama,Nomor Telepon,Kategori");
             }
         });
 
+        btnHapus.setBackground(new java.awt.Color(255, 51, 51));
         btnHapus.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         btnHapus.setText("HAPUS");
         btnHapus.addActionListener(new java.awt.event.ActionListener() {
@@ -422,6 +425,7 @@ header.trim().equalsIgnoreCase("ID,Nama,Nomor Telepon,Kategori");
             }
         });
 
+        btnExport.setBackground(new java.awt.Color(204, 204, 204));
         btnExport.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         btnExport.setText("EXPORT");
         btnExport.addActionListener(new java.awt.event.ActionListener() {
@@ -430,7 +434,9 @@ header.trim().equalsIgnoreCase("ID,Nama,Nomor Telepon,Kategori");
             }
         });
 
+        btnImport.setBackground(new java.awt.Color(0, 0, 204));
         btnImport.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        btnImport.setForeground(new java.awt.Color(255, 255, 255));
         btnImport.setText("IMPORT");
         btnImport.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
