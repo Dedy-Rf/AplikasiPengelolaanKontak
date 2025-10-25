@@ -388,7 +388,7 @@ header.trim().equalsIgnoreCase("ID,Nama,Nomor Telepon,Kategori");
                 {null, null, null, null}
             },
             new String [] {
-                "Title 1", "Title 2", "Title 3", "Title 4"
+                "Nomor", "Nama", "Nomor Telepon", "Kategori"
             }
         ));
         tblKontak.addMouseListener(new java.awt.event.MouseAdapter() {
